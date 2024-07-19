@@ -1,0 +1,65 @@
+.recruiters{
+background-color: rgb(249, 249, 249);
+}
+
+.recruiters-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 4em 5vw 0;
+    padding-bottom: 1rem;
+}
+
+.recruiters-grid .heading{
+    font-size:2em ;
+    font-weight: bolder;
+}
+
+.recruiters-grid  .company-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 0 0 auto;
+    align-items: center;
+}
+
+
+.recruiters-grid  .company-images img{
+    width: 100%;
+}
+
+.recruiters-grid .img2{
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    
+.recruiters-grid{
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .recruiters-grid .img1{
+    display: none;
+  }
+  
+  .recruiters-grid .img2{
+    display: block;
+  }
+  
+  .recruiters-grid .company-images{
+    width: auto !important;
+  }
+  
+  .recruiters-grid .heading{
+    font-size: 20px;
+    padding: 1rem;
+  }
+  
+}
+
+
+
+
