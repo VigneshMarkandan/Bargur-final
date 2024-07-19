@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e4b33e8.css",
+    "main.js": "/static/js/main.875f83cb.js",
+    "static/js/453.42424736.chunk.js": "/static/js/453.42424736.chunk.js",
+    "static/media/phd.png": "/static/media/phd.e16c69ea233c463bcf88.png",
+    "static/media/news3.jpeg": "/static/media/news3.95ebab46e1e42f5fac6a.jpeg",
+    "static/media/Student-girl.png": "/static/media/Student-girl.ac99b488fbaaaee44978.png",
+    "static/media/mba.png": "/static/media/mba.2c70d80032eb4c038480.png",
+    "static/media/news2.jpeg": "/static/media/news2.4d083f95097aa5435b7b.jpeg",
+    "static/media/exphd.png": "/static/media/exphd.bfd3d9871e7fd94b08b4.png",
+    "static/media/companies-sp.png": "/static/media/companies-sp.be388860da74e975b03e.png",
+    "static/media/aacsbLogo.png": "/static/media/aacsbLogo.2d9426e84692f9118d0e.png",
+    "static/media/mbahr.png": "/static/media/mbahr.94ce5cd7b45137c2c02f.png",
+    "static/media/amba_logo.png": "/static/media/amba_logo.4d1fca2523d42f67ee7f.png",
+    "static/media/companies.png": "/static/media/companies.86832e408461d218dd97.png",
+    "static/media/news1.jpeg": "/static/media/news1.1e688027db42acbb3bb1.jpeg",
+    "static/media/pgpbm.png": "/static/media/pgpbm.a7a0971035b312e3fe5a.png",
+    "static/media/iim_logo.png": "/static/media/iim_logo.3756bbb7fbeb7e927f92.png",
+    "static/media/logo.webp": "/static/media/logo.3756bbb7fbeb7e927f92.webp",
+    "static/media/life.png": "/static/media/life.8822caf67ac5427586d6.png",
+    "static/media/icon-insta.svg": "/static/media/icon-insta.a08380c6e2756e7fcdf5482bb04ebb3f.svg",
+    "static/media/icon-youtube.svg": "/static/media/icon-youtube.20bdd383519c315c010d9a450c863187.svg",
+    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.3b2cd659f9d238afa82c99f98b482fc0.svg",
+    "static/media/icon-facebook.svg": "/static/media/icon-facebook.c994881a794c61f8b5a979a753f21d74.svg",
+    "index.html": "/index.html",
+    "main.7e4b33e8.css.map": "/static/css/main.7e4b33e8.css.map",
+    "main.875f83cb.js.map": "/static/js/main.875f83cb.js.map",
+    "453.42424736.chunk.js.map": "/static/js/453.42424736.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e4b33e8.css",
+    "static/js/main.875f83cb.js"
+  ]
+}
