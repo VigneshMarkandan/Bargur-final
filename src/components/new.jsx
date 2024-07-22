@@ -89,12 +89,14 @@ function New() {
                   <a href="/">Medical Facility</a>
                   <a href="/">Post Office</a>
                   <a href="/">Staff Quarters</a> 
+                 
                 </div>
                 <div className="dropdown-row">
                 <a href="/">Tansport</a>
                 <a href="/">Bank</a>
-                <a href="/"></a>
-                <a href="/"></a>
+                <a href="/">Sports</a>
+                <a href="/">NSS</a>
+                
                 
                 </div>
               </div>
@@ -152,7 +154,7 @@ function New() {
                 <div className="dropdown-row">
                   <a href="/">Memorandum of Understanding</a>
                   <a href="/">Students Exchange Programme</a>
-                  <a href="/"></a>
+                  <a href="/">IQAC</a>
                 </div>
               </div>
             </li>
