@@ -292,6 +292,15 @@ object-fit: cover;
   font: 16px / 16px Roboto, sans-serif;
   vertical-align: baseline;
 }
+#root > div > div > div.style-0 > ul > li.style-9{
+  margin-top: 10px;
+}
+#root > div > div > div.style-0 > ul > li.style-14{
+  margin-top: 10px;
+}
+#root > div > div > div.style-0 > ul > li.style-4{
+  margin-top: 10px;
+}
 
 .style-5, .style-10, .style-15 {
   background: rgb(249, 249, 249) none repeat scroll 0% 0% / auto padding-box border-box;
@@ -346,7 +355,8 @@ object-fit: cover;
 
 @media (max-width: 768px) {
   .style-4, .style-9, .style-14 {
-    width: 48%;
+    width: 51%;
+    
   }
   .serach-bar span img{
     width: 2vw;
