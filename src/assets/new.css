@@ -8,14 +8,15 @@ body {
     padding: 0 15vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
   }
   
   .navbar-container {
     display: flex;
-    justify-content: right;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    align-content: center;
+    justify-content: flex-start;
   }
   
   .navbar-brand {
@@ -95,8 +96,10 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
-    margin: 5px 0;
+    margin: 5px;
+    
   }
+  
   
   .burger-menu .bar1,
   .burger-menu .bar2,

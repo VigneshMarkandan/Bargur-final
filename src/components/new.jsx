@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/new.css';
+import image from '../assets/img/letter-x_15196056.png';
 import { Link } from 'react-router-dom';
 
 function New() {
@@ -13,11 +14,11 @@ function New() {
     <div className="App">
       <nav className="navbar">
         <div className="navbar-container">
-          <div className={`burger-menu ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
+          {/*<div className={`burger-menu ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
             <div className="bar1"></div>
             <div className="bar2"></div>
             <div className="bar3"></div>
-          </div>
+  </div> */}
           <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
             <li className="nav-item dropdown">
               <Link to="/about" className="nav-link">About  &#9662;</Link>
@@ -162,7 +163,13 @@ function New() {
               <a href="/" className="nav-link">My GGEB</a>
             </li>
           </ul>
+          
         </div>
+        <div className={`burger-menu ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
+            <div className="bar1"> </div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
+  </div>
       </nav>
     </div>
   );

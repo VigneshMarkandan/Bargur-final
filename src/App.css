@@ -628,6 +628,10 @@ width: 25%;
     margin-bottom: 30px;
   }
 }
+#root > div > div > div.App > nav > div > div{
+      
+  
+}
 
 @media(max-width:600px){
   .header-title h1{
