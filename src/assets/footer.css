@@ -102,3 +102,10 @@
     font-size: 16px;
     font-weight: 400;
 }
+@media(max-width:480px){
+  #root > div > div > footer > div > div.footer-content > ul > li:nth-child(4) > p.contact-text{
+        font-size: 14px;
+        line-height: 1.5;
+        word-spacing: 2px;
+  }
+}

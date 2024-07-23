@@ -628,10 +628,7 @@ width: 25%;
     margin-bottom: 30px;
   }
 }
-#root > div > div > div.App > nav > div > div{
-      
-  
-}
+
 
 @media(max-width:600px){
   .header-title h1{
@@ -659,9 +656,7 @@ width: 25%;
   .footer-content ul li article {
     font-size: 13px !important;
   }
-  .footer-content ul p{
-    font-size: 18px !important;
-  }
+  
 
   .footer-heading{
     line-height: 1.7;

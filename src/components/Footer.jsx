@@ -17,7 +17,7 @@ function Footer() {
          <div className='footer-content'>
           <ul>
             <li>
-              <p>Lige @ GCEB</p>
+              <p>Life @ GCEB</p>
               <article>Corporate Relationship</article>
               <article>GCEB Alumni</article>
               <article>Reach GCEB</article>

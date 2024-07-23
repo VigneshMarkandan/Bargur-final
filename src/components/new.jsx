@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../assets/new.css';
-import image from '../assets/img/letter-x_15196056.png';
 import { Link } from 'react-router-dom';
 
 function New() {
