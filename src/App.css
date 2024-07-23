@@ -99,6 +99,7 @@ body{
   margin-right: 20px;
 }
 
+
 .header-title {
   font-size: 1.1vw;
 }
@@ -358,9 +359,12 @@ object-fit: cover;
     width: 51%;
     
   }
+  .header-logo{
+    width: 8vw;
+  }
   .serach-bar span img{
-    width: 2vw;
-    height: 2vw;
+    width: 30px;
+    height: 30px;
   }
   .blocks {
     margin-top: 0.5vw;
@@ -372,15 +376,50 @@ object-fit: cover;
 }
 @media (max-width: 1500px) {
   .serach-bar span{
-    height: 25px;
-    width: 25px;
+    height: 45px;
+    width: 45px;
   }
+  
+  .serach-bar span img{
+    width: 30px;
+    height: 30px;
+  }
+  
+
   
   .serach-bar .search-input{
     height: 33px;
     max-width:100px;
   }
 }
+
+@media (max-width: 1800px){
+  .serach-bar span img{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-logo{
+    width: 15vw;
+    
+  }
+}
+
+@media (max-width: 648px) {
+  .header-logo{
+    width: 10vw;
+    margin-bottom: 10vw;
+  }
+}
+@media (max-width: 900px) {
+  .header-logo{
+    width: 10vw;
+    margin-bottom: 10vw;
+  }
+}
+
 
 @media (max-width: 480px) {
   .style-4, .style-9, .style-14 {
@@ -418,6 +457,8 @@ object-fit: cover;
   justify-content: space-between;
   width: 95%;
   margin:  0 auto;
+  position: absolute;
+  margin-bottom: 15vw;
 }
 
 .language-toggle p{
@@ -504,4 +545,132 @@ width: 25%;
   margin-top: 2vw;
 }
 
+}
+
+
+@media (max-width: 480px) {
+  #root > div > div > header > div.language-toggle > div > span {
+     
+      position: absolute;
+      
+      right: 0;
+      margin-top: 60px;
+  }
+ 
+  .header-title{
+    width: 250px;
+  }
+  #root > div > div > header > div.header-main > a > img{
+    width: 50px;
+    margin-right:10px;
+  }
+
+  #root > div > div > header > div.header-main > div > h1:nth-child(1){
+    font-size: 13px;
+  }
+  
+
+}
+
+@media(max-width:380px){
+  #root > div > div > header > div.header-main > div > h1:nth-child(2){
+    font-size: 11px !important;
+  }
+  #root > div > div > header > div.header-main > div > h1:nth-child(1){
+    font-size: 10px !important;
+  }
+
+  #root > div > div > header > div.language-toggle > div > span{
+    width: 14px !important;
+    height: 14px !important;
+    position: absolute;
+    left: 100%;
+    margin-top: 30px;
+   }
+   #root > div > div > header > div.language-toggle > div > span > img{
+    height: 15px !important;
+   }
+
+}
+
+@media(max-width: 1062px){
+  #root > div > div > header > div.language-toggle > div > span{
+  width: 20px;
+  height: 20px;
+ }
+ .header-title h1{
+  font-size: 22px;
+ }
+}
+
+
+@media(max-width: 901px){
+ 
+  #root > div > div > header > div.header-main > div > h1:nth-child(2){
+    font-size: 20px;
+    margin-bottom: 45px;
+  }
+  .header-title h1{
+    font-size: 20px;
+  }
+  .header-logo{
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:836px){
+  .header-title h1{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .header-logo{
+    width: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:600px){
+  .header-title h1{
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .header-logo{
+    width: 40px;
+    margin-bottom: 30px;
+  }
+  #root > div > div > header > div.header-main > div > h1:nth-child(2){
+    font-size: 14px;
+    
+  }
+  #root > div > div > header > div.language-toggle > div > span{
+    height: 14px;
+    width: 14px;
+    margin-bottom: 30px;
+  }
+  #root > div > div > header > div.language-toggle > div > span > img{
+    height: 20px;
+    width: 20px;
+    
+  }
+  .footer-content ul li article {
+    font-size: 13px !important;
+  }
+  .footer-content ul p{
+    font-size: 18px !important;
+  }
+
+  .footer-heading{
+    line-height: 1.7;
+    word-spacing: 2px;
+    font-weight: lighter;
+  }
+  
+  .footer-sns__item img{
+    width: 27px;
+    margin-top: 5px;
+    
+    
+  }
+  
+ 
 }
