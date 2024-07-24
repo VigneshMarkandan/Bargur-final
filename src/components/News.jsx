@@ -19,7 +19,7 @@ const News = () => {
               />
               <div className="blocks">
                 <p>Jan 15, 2024</p>
-                <h3>TEQIP -III SPONSORED (EVENT) </h3>
+                <h3>TEQIP -III SPONSORED  (EVENT) "Enhancing technical education quality through strategic improvements." </h3>
                 <button>Read More &gt;</button>
               </div>
             </div>
@@ -34,7 +34,7 @@ const News = () => {
               />
               <div className="blocks">
                 <p>Oct 15, 2024</p>
-                <h3>"Youth Awakening Day" Dr. A.P.J. Abdul Kalam's Birth Anniversary Rally</h3>
+                <h3>"Youth Awakening Day" Dr. A.P.J. Abdul Kalam's Birth Anniversary Rally, follow Dr. Kalam's visionary path."</h3>
                 <button>Read More &gt;</button>
               </div>
             </div>
@@ -49,7 +49,7 @@ const News = () => {
               />
               <div className="blocks">
                 <p>May 19, 2024</p>
-                <h3>GCEB Kho-kho (men) Team Secure Runner Up in Anna University Sports Board Zone-VII Kho-kho(men) Tournament</h3>
+                <h3>GCEB Kho-kho Team Secure Runner Up in Anna University Sports Board Zone-VII Kho-kho(men) Tournament</h3>
                 <button>Read More &gt;</button>
               </div>
             </div>
