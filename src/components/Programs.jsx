@@ -49,10 +49,10 @@ const programs = [
 const Programs = () => {
   const [selectedProgram, setSelectedProgram] = useState({
     category: "PGPM",
-    program: "MBA",
+    program: "UG",
     image: mba,
     description:
-      "IIM Tiruchirappalli launched the PGPBM programme at its Chennai campus to groom working executives who aspire to move into senior leadership roles.",
+    "Government College of Engineering, Bargur has been granted autonomous status from the year 2017-18 to 2022-23 (six years).",
   });
 
   const handleProgramClick = (category, program, image, description) => {
