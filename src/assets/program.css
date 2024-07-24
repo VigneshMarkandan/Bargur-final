@@ -170,10 +170,8 @@
     margin-right: 20px;
   }
 
-  .read-more-button,
-  .admission-button {
-    width: 35%;
-  }
+  
+
 }
 
 @media (max-width: 768px) {
